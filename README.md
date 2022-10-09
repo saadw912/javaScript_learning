@@ -1,1 +1,1 @@
-# panaverse_learning
+# JavaScript_learning
