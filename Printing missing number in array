@@ -1,0 +1,16 @@
+let arr1 = [11, 12, 17, 18, 15];
+ let strt=[arr1[0]];
+ for(let i=1;i<arr1.length;i++)
+ {
+  let index = arr1.indexOf(arr1[i]);
+  if(arr1[i]==strt[0]+i){
+    console.log("perfect")
+  console.log(arr1[i]);
+
+  }
+  else
+  {
+ 
+  console.log(`${index} is index value sould be ${strt[0]+i} `);
+}
+ }
