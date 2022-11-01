@@ -1,0 +1,39 @@
+// let ispakistan=true;
+// if(ispakistan){
+//     console.log("hello saad");
+// }
+// else{
+//     console.log("hello alexander");
+// }
+import promptSyn from 'prompt-sync';
+const prompt= promptSyn();
+let persent =prompt("what's your grade");
+let result =persent>=50?"passed":"fail";
+console.log(result);
+if(persent>=90)
+{
+    console.log("A+")
+}
+else if(persent>=81)
+{
+    console.log("A")
+}
+else if(persent>=70)
+{
+    console.log("B")
+}
+else if(persent>=60)
+{
+    console.log("C")
+}
+else if(persent>=50)
+{
+    console.log("D")
+}
+else
+{
+    console.log("F")
+}
+// let ispakistan=prompt("are you in pakistan");
+// let result=ispakistan==="true"?"hello saad ":"hell alexader";
+// console.log(result);
